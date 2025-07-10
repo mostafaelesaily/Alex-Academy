@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Alex-Academy/static/css/main.072ecbfd.css",
-    "main.js": "/Alex-Academy/static/js/main.b0f45bbf.js",
+    "main.js": "/Alex-Academy/static/js/main.c720a5e4.js",
     "index.html": "/Alex-Academy/index.html",
     "main.072ecbfd.css.map": "/Alex-Academy/static/css/main.072ecbfd.css.map",
-    "main.b0f45bbf.js.map": "/Alex-Academy/static/js/main.b0f45bbf.js.map"
+    "main.c720a5e4.js.map": "/Alex-Academy/static/js/main.c720a5e4.js.map"
   },
   "entrypoints": [
     "static/css/main.072ecbfd.css",
-    "static/js/main.b0f45bbf.js"
+    "static/js/main.c720a5e4.js"
   ]
 }

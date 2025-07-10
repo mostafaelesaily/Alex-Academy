@@ -1,0 +1,159 @@
+/* التصميم العام للتطبيق */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* شريط التنقل العلوي - برتقالي */
+.navbar {
+  background-color: #fd7e14 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem 1rem;
+  border-bottom: 2px solid #e76f00;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.app-name {
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.app-logo {
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* أزرار الهيدر */
+.navbar-dark .btn-outline-light {
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar-dark .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+/* بادج المسؤول */
+.badge.bg-danger {
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* المحتوى الرئيسي */
+.main-content {
+  flex: 1;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* الفوتر المثبت - برتقالي */
+.footer {
+  width: 100%;
+  background-color: #fd7e14 !important;
+  color: #212529;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #e76f00;
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.footer h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.footer a {
+  color: #212529;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer hr {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+/* التنسيق للغة العربية */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* التنسيق للغة الإنجليزية */
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* نافذة تسجيل الدخول */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 400px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* تأثيرات عامة */
+.btn-warning {
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #e76f00;
+  border-color: #e76f00;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-warning {
+  color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-outline-warning:hover {
+  background-color: #fd7e14;
+  color: white;
+}

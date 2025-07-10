@@ -1,0 +1,68 @@
+/* تصميم صفحة الترحيب */
+.welcome-page {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.welcome-content {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.welcome-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #495057;
+  padding: 0 2rem;
+}
+
+.category-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.category-card .card-body {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(253, 126, 20, 0.1);
+  border-radius: 50%;
+  color: #fd7e14;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.edit-section textarea {
+  resize: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.75rem;
+}
+
+.edit-section .btn {
+  min-width: 80px;
+}

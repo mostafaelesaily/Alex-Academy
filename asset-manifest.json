@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alex-Academy/static/css/main.072ecbfd.css",
+    "main.js": "/Alex-Academy/static/js/main.fac720c4.js",
+    "index.html": "/Alex-Academy/index.html",
+    "main.072ecbfd.css.map": "/Alex-Academy/static/css/main.072ecbfd.css.map",
+    "main.fac720c4.js.map": "/Alex-Academy/static/js/main.fac720c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.072ecbfd.css",
+    "static/js/main.fac720c4.js"
+  ]
+}
